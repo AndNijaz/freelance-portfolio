@@ -1,0 +1,38 @@
+/* ---------------- */
+/* BELOW 1344px (Smaller desktops) */
+/* ---------------- */
+@media (max-width: 84em) {
+}
+
+/* ---------------- */
+/* BELOW 1200px (Landscape Tablets) */
+/* ---------------- */
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/* ---------------- */
+/* BELOW 944px (Tablets) */
+/* ---------------- */
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/* ---------------- */
+/* BELOW 704px  (Smaller Tablets) */
+/* ---------------- */
+@media (max-width: 44em) {
+}
+
+/* ---------------- */
+/* BELOW 544px (Mobile) */
+/* ---------------- */
+@media (max-width: 34em) {
+  .service {
+    flex-direction: column;
+  }
+}

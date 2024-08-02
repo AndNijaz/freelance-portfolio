@@ -1,0 +1,101 @@
+:root {
+  --primary-red: #ca0000;
+  --primary-black: #000;
+  --font-color: #fff;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "PP Neue Montreal";
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--primary-black);
+  color: var(--font-color);
+}
+
+a:link,
+a:visited {
+  color: var(--font-color);
+  text-decoration: none;
+}
+
+/* -------------------------------- */
+/* CONTAINERS */
+/* -------------------------------- */
+.big-container {
+  width: 130rem;
+  /* border: 1px solid #fff; */
+  margin: 0 auto;
+  padding: 0 1.6rem;
+}
+
+/* -------------------------------- */
+/* HEADINGS */
+/* -------------------------------- */
+.heading-primary {
+  font-size: 8.4rem;
+  font-weight: 500;
+}
+
+.heading-primary-big {
+  font-size: 11.8rem;
+  font-weight: 600;
+}
+
+/* -------------------------------- */
+/* BUTTONS */
+/* -------------------------------- */
+.btn {
+  font-size: 2rem;
+  border: 1px solid #fff;
+  padding: 1.6rem 3.2rem;
+  border-radius: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -------------------------------- */
+/* MARGINS */
+/* -------------------------------- */
+.margin-top-xsm {
+  margin-top: 1.6rem;
+}
+
+/* -------------------------------- */
+/* DECORATION */
+/* -------------------------------- */
+.decoration {
+  position: absolute;
+  top: 25%;
+  right: 0%;
+  transform: rotate(90deg);
+  padding: 3.2rem 12.8rem;
+}
+
+/* -------------------------------- */
+/* FLEX */
+/* -------------------------------- */
+.flex {
+  display: flex;
+}
+
+.gap-xsm {
+  gap: 1.6rem;
+}
+
+.gap-sm {
+  gap: 3.2rem;
+}
